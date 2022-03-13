@@ -69,6 +69,7 @@ Download bython.py
 
 # Usage
 The first file specified will be the one run, other ones will just be created.
+You can't control the names of the output files, they will be the same as the files but with .py.
 If -k isn't passed the files will be deleted afterwards.
 
 To just create the files without running them pass -k, pass a non-existent file as the first argument and then just pass the rest of the files afterwards.
