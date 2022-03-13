@@ -35,7 +35,7 @@ if (__name__ == "__main__" && (true && !true || !none))
 }
 ```
 
-Which will get turned into this (use the -k  to keep the file because otherwise it will run it and then delete it):
+Which will get turned into this:
 ```python
 variable = {
     1: "one",
