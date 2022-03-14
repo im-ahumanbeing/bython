@@ -112,7 +112,7 @@ def parse(filename):
         elif (read[index:index + 2] == "||"):
             write, index = addition(write, index, "or", 2)
             continue
-        elif (read[index] == "!"):
+        elif (read[index] == "!" and read[index + 1] != "="):
             write, index = addition(write, index, "not ", 1)
             continue
         elif (read[index:index + 4] == "true"):
